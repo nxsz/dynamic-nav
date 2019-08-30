@@ -9,7 +9,10 @@
       </p>
       <el-button>el-button</el-button>
     </div>
+    <router-link to="/aside">aside</router-link>
+    <router-view/>
     <HelloWorld msg="Welcome to Your Vue.js App"/>
+    
   </div>
 </template>
 
